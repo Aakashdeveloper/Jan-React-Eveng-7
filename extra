@@ -8,7 +8,6 @@ Npm
 React = 3
 Mock API
 json-server
-////////////
 React-JWT(Login Logout)-2
 React-GarphQL-1
 React_hooks -1
@@ -55,3 +54,70 @@ How to install any package
 <<<<<<<<<<
 
 create-react-app
+////
+
+
+Package.json
+> Entry point to app
+> meta(description,version,name,author)
+> Scripts(start,test,build)
+> packages
+
+////////
+Step to generate Package.json
+///////////
+*NodeJs must be installed in your system
+> navigate to the folder using terminal/cmd
+> npm init 
+> answer all questions
+> type "yes"
+
+///////
+How to install any package
+///////
+>>Local Dependency
+  > specific to the app
+  > they are going to be used only in same app
+
+*NodeJs must be installed in your system
+> navigate to the folder using terminal/cmd
+> npm i package name
+
+/////
+Global Dependency
+> install in system irrespective of any folder
+> can be use by any application
+> need admin permission
+> only package that help to generate, build and test app
+
+//////////////////
+Generate React App
+////////////
+#window
+
+%One Time%
+> open cmd as admin
+> npm i -g create-react-app
+
+%Next all Time%
+> open cmd 
+> go inside folder
+> create-react-app appname
+
+#mac
+
+%One Time%
+> open terminal
+> sudo npm i -g create-react-app
+
+%Next all Time%
+> open terminal 
+> go inside folder
+> create-react-app appname
+
+//////////////////
+Run React App
+////////////
+> go inside the folder with cmd
+> npm start
+> localhost:3000
