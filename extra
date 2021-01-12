@@ -121,3 +121,21 @@ Run React App
 > go inside the folder with cmd
 > npm start
 > localhost:3000
+
+
+Component
+
+Class
+> They are logical Component
+> They are heavy
+> We use them for api calling and writing all logics and data interaction 
+> Although we can do display also
+---------------
+Functional
+> They are dumb component
+> They are mainly use for display purpose
+
+
+HooksComponent
+
+npm i jest --save-dev
