@@ -10,3 +10,8 @@ function add(a,b){
     var out = [a,b]
     return out
 }
+
+
+var a = 10
+
+a>10 ?"Hii":"Bie"

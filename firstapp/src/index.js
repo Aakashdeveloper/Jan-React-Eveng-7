@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Header'
+import Header from './Component/Header';
+import Footer from './Component/Footer';
 
 const App = () => {
     return(
-        <div>
+        <React.Fragment>
             <Header/>
             <h1>Hii From React</h1>
             <h2>Hi from Nareshit</h2>
-        </div>
+            <Footer/>
+        </React.Fragment>
     )
 }
 

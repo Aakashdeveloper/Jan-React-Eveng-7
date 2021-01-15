@@ -130,12 +130,23 @@ Class
 > They are heavy
 > We use them for api calling and writing all logics and data interaction 
 > Although we can do display also
+> we can define state
 ---------------
 Functional
 > They are dumb component
 > They are mainly use for display purpose
+> we cannot define state
 
 
 HooksComponent
 
 npm i jest --save-dev
+
+State
+    > act like a local variable
+    > every class component can have its own state 
+    > we can update the value of state
+    > any data interction will happen through state
+Props
+    > help to transfer the data
+    > we cannot update the value of props
