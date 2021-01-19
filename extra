@@ -154,3 +154,18 @@ Props
 
 filter in JavaScript
 indexof
+
+
+parent => child (simple props)
+child => parent (props with function (callback))
+
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
+
+in parent write function
+in child call function
+
+npm i react-router-dom
