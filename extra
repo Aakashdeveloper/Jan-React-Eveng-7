@@ -169,3 +169,17 @@ in parent write function
 in child call function
 
 npm i react-router-dom
+npm i bootstrap
+
+>
+something after / is params
+    > we need to mention in routes
+    > it is compuslory
+something after ? is queryParams
+    > No need to mention in routes
+    > optional
+
+default props
+history > for redirect
+location > for queryparams
+match > for params
