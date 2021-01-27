@@ -14,7 +14,7 @@ const ListingDisplay = (props) => {
                             </div>
                             <div className="col-sm-7">
                                 <div className="hotel_name">
-                                    <Link to={`/details/${item.id}`}>{item.name}</Link>
+                                    <Link to={`/details/${item._id}`}>{item.name}</Link>
                                     <div className="city_name">{item.city_name}</div>
                                     <div className="city_name">{item.locality}</div>
                                     <div className="city_name">{item.address}</div>
