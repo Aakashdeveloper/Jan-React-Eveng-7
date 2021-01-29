@@ -1,0 +1,25 @@
+{
+  "booking": [
+    {
+      "id": 365,
+      "hotel_name": "The Orchid Hotel",
+      "name": "Aakash",
+      "phone": "897878",
+      "count": "2"
+    },
+    {
+      "id": 132,
+      "hotel_name": "Snow Bliss",
+      "name": "Nikita",
+      "phone": "8789798789",
+      "count": "3"
+    },
+    {
+      "id": 706,
+      "hotel_name": "DoubleTree by Hilton",
+      "name": "Bhumika",
+      "phone": "90789789798",
+      "count": "1"
+    }
+  ]
+}

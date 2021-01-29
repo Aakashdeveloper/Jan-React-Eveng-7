@@ -8,6 +8,8 @@ Npm
 React = 3
 Mock API
 json-server
+//////////////////////
+
 React-JWT(Login Logout)-2
 React-GarphQL-1
 React_hooks -1
@@ -199,3 +201,9 @@ https://developerhotel.herokuapp.com/
 (post)placebooking >  https://developerfunnel.herokuapp.com/placeBook
 
 npm i react-router-dom react-slick react-tabs
+
+////
+dummy api
+/////
+> npm i -g json-server
+> json-server --watch db.json --port 8900
