@@ -16,11 +16,11 @@ const Header = () => {
                     </div>
                     <div className="collapse navbar-collapse" id="myNavbar">
                     <ul className="nav navbar-nav">
-                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/users">Users</Link></li>
                     </ul>
                     <ul className="nav navbar-nav navbar-right">
-                        <li><a href="#"><span className="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                        <li><a href="#"><span className="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        <li><Link to="/"><span className="glyphicon glyphicon-user"></span> Sign Up</Link></li>
+                        <li><Link to="/login"><span className="glyphicon glyphicon-log-in"></span> Login</Link></li>
                     </ul>
                     </div>
                 </div>
