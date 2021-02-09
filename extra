@@ -9,14 +9,14 @@ React = 3
 Mock API
 json-server
 React-JWT(Login Logout)-2
-//////////////////////
-React-GarphQL-1
-React_hooks -1
 Depolyment
 -> MERN
 -> Docker
 -> heroku
 -> Nginx
+//////////////////////
+React-GarphQL-1
+React_hooks -1
 Basic React Native=1
 React-Redux =1
 React-Redux =1
@@ -228,3 +228,25 @@ https://www.postman.com/
 (GET) => http://localhost:5000/api/auth/userinfo
 (Header) => {'x-access-token':'token value from login'}
 (response) => {userinfo}
+
+https://www.youtube.com/watch?v=k4KZblj3QA0&t=2s
+https://www.youtube.com/watch?v=IAq5OO3U-9I&t=210s
+
+
+docker build . -t "jannode"
+docker run -p 8900:3000 jannode
+
+///first time from new folder/////
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/myreactjan.git
+git push -u origin master
+
+///Every time from same folder/////
+git add .
+git commit -m "first commit"
+git push
+
+///veryFirst time on project////
+git clone url
