@@ -14,8 +14,8 @@ Depolyment
 -> Docker
 -> heroku
 -> Nginx
-//////////////////////
 React-GarphQL-1
+//////////////////////
 React_hooks -1
 Basic React Native=1
 React-Redux =1
@@ -250,3 +250,11 @@ git push
 
 ///veryFirst time on project////
 git clone url
+
+npm i apollo-boost apollo-graphql graphql react-apollo
+
+>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<
+React Native
+>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<
+npm i -g create-react-native-app
+create-react-native-app appname
