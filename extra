@@ -15,9 +15,9 @@ Depolyment
 -> heroku
 -> Nginx
 React-GarphQL-1
-//////////////////////
 React_hooks -1
 Basic React Native=1
+//////////////////////
 React-Redux =1
 React-Redux =1
 Testing
@@ -258,3 +258,7 @@ React Native
 >>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<
 npm i -g create-react-native-app
 create-react-native-app appname
+
+mobile > expo
+ios> https://www.apple.com/in/search/expo?src=globalnav
+and > https://play.google.com/store/search?q=expo
