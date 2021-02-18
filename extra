@@ -262,3 +262,8 @@ create-react-native-app appname
 mobile > expo
 ios> https://www.apple.com/in/search/expo?src=globalnav
 and > https://play.google.com/store/search?q=expo
+
+
+npm i react-redux  react-router-dom react-slick redux-logger redux-promise redux
+
+npm i enzyme enzyme-adapter-react-16  react-addons-test-utils react-test-renderer
