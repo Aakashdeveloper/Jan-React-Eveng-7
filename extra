@@ -19,9 +19,9 @@ React_hooks -1
 Basic React Native=1
 React-Redux =1
 React-Redux =1
-//////////////////////
 Testing
 React-Saga -1
+//////////////////////
 Github
 React-with-typescript-1
 --------NOT--------------
@@ -267,3 +267,32 @@ and > https://play.google.com/store/search?q=expo
 npm i react-redux  react-router-dom react-slick redux-logger redux-promise redux
 
 npm i enzyme enzyme-adapter-react-16  react-addons-test-utils react-test-renderer
+
+function loop(userInput){
+    for(i=0;i<userInput;i++){
+        console.log(i)
+    }
+}
+
+function * loop(userInput){
+    for(i=0;i<userInput;i++){
+        yield i
+    }
+}
+undefined
+loop(5)
+loop {<suspended>}
+var data = loop(5)
+undefined
+data.next()
+{value: 0, done: false}
+data.next()
+{value: 1, done: false}
+data.next()
+{value: 2, done: false}
+data.next()
+{value: 3, done: false}
+data.next()
+{value: 4, done: false}
+data.next()
+{value: undefined, done: true}
